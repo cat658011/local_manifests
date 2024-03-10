@@ -8,6 +8,9 @@
   <remote name="CherishOS"
      fetch="https://github.com/CherishOS-exynos9820/"
      revision="lineage-21.0"/>
+  <remote name="Elixir"
+     fetch="https://github.com/ProjectElixir-Devices"
+     revision="lineage-21.0"/>
     <!-- Sync hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="Royna" revision="fourteen" />
   <project path="hardware/samsung_slsi" name="hardware_samsung_slsi" remote="Dragonfox" revision="evo-udc"/>
@@ -22,18 +25,10 @@
   <project path="kernel/samsung/universal9611" name="kernel_samsung_universal9611" remote="Dragonfox" revision="Grass-Unified" />
   <project path="kernel/samsung/universal9611/KernelSU" name="tiann/KernelSU" remote="github" revision="main"/>
   <!-- Devices trees -->
-  <project path="device/samsung/universal9611-common" name="device_samsung_universal9611-common" remote="Royna" />
+  <project path="device/samsung/universal9611-common" name="device_samsung_universal9611-common" remote="Elixir" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="Royna" />
-  <project path="device/samsung/a51" name="device_samsung_a51" remote="Royna"/>
-  <project path="device/samsung/f41" name="device_samsung_f41" remote="Royna"/>
-  <project path="device/samsung/m31s" name="device_samsung_m31s" remote="Royna"/>
-  <project path="device/samsung/m31" name="device_samsung_m31" remote="Royna"/>
-  <project path="device/samsung/m21" name="device_samsung_m21" remote="Royna"/>
+  <project path="device/samsung/a51" name="device_samsung_a51" remote="Elixir"/>
   <!-- Vendor trees -->
   <project path="vendor/samsung/universal9611-common" name="vendor_samsung_universal9611-common" remote="Royna"/>
-  <project path="vendor/samsung/f41" name="vendor_samsung_f41" remote="Royna"/>
-  <project path="vendor/samsung/a51" name="vendor_samsung_a51" remote="Royna"/>
-  <project path="vendor/samsung/m31s" name="vendor_samsung_m31s" remote="Royna"/>
-  <project path="vendor/samsung/m21" name="vendor_samsung_m21" remote="Royna"/>
-  <project path="vendor/samsung/m31" name="vendor_samsung_m31" remote="Royna"/>
+  <project path="vendor/samsung/a51" name="vendor_samsung_a51" remote="Elixir"/>
 </manifest>
