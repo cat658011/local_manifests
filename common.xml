@@ -27,7 +27,7 @@
   <project path="device/samsung/a51" name="device_samsung_a51" remote="Dragonfox" revision="lineage-20"/>
   <project path="device/samsung/f41" name="device_samsung_f41" remote="Dragonfox" revision="lineage-20"/>
   <project path="device/samsung/m31s" name="device_samsung_m31s" remote="Dragonfox" revision="lineage-20"/>
-  <project path="device/samsung/m31" name="device_samsung_m31" remote="Dragonfox" revision="lineage-20"
+  <project path="device/samsung/m31" name="device_samsung_m31" remote="Dragonfox" revision="lineage-20"/>
   <project path="device/samsung/m21" name="device_samsung_m21" remote="Dragonfox" revision="lineage-20"/>
   <!-- Vendor trees -->
   <project path="vendor/samsung/universal9611-common" name="vendor_samsung_universal9611-common" remote="Dragonfox" revision="evo-udc"/>
